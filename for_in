@@ -1,0 +1,4 @@
+nome = 'frederico'
+for letra in nome:
+    if letra != 'f':
+        print(letra)
