@@ -1,0 +1,20 @@
+numerico=[1,2,3,4,5,6,7,8]
+aula08=['L','I','S','T','A','S']
+menorvalor= min(numerico)
+print(menorvalor)
+maiorvalor=max(numerico)
+print(maiorvalor)
+numerico.insert(2,19)
+print(numerico)
+soma=sum(numerico)
+print(numerico)
+numerico.pop()
+print(numerico)
+numerico.remove()
+print(numerico)
+numerico.sorte()
+print(numerico)
+numerico.reverse
+print(numerico)
+numerico.count(2,8)
+print(numerico)

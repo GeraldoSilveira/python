@@ -1,0 +1,26 @@
+
+
+numeros1 = []
+num1 = 0
+quadrado = 0
+numerosquadrado = []
+somaquadrado = 0
+
+for c in range(0,5):
+    num1 = int(input('Difite um numero: '))
+    numeros1.append(num1)
+print(f'A lista criada tem estes {numeros1} números')
+
+for numero in numeros1:
+    quadrado = numero**2
+    numerosquadrado.append(quadrado)
+    somaquadrado += quadrado
+    
+    print(f'O quadrado de {numero} é {quadrado}')
+
+print(f'\nOs números as quadrado são: {numerosquadrado} ')
+print(f'E a soma destes números são: {somaquadrado} ')
+    
+    
+
+
